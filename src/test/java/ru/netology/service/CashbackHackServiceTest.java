@@ -15,12 +15,12 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
     }
 
-//    @Test
-//    public void shouldShowNullIfAccurateOneThousand() {
-//        int expected = 0;
-//        int actual = service.remain(1000);
-//        assertEquals(actual, expected);
-//    }
+    @Test
+    public void shouldShowNullIfAccurateOneThousand() {
+        int expected = 0;
+        int actual = service.remain(1000);
+        assertEquals(actual, expected);
+    }
 
     @Test
     public void shouldShowAllSum() {
